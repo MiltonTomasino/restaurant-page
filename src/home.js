@@ -1,4 +1,6 @@
 import restaurantImage from "./restaurant.jpg";
+// Image by Helena Lopes on pexels.com
+// https://www.pexels.com/photo/people-drinking-liquor-and-talking-on-dining-table-close-up-photo-696218/
 
 const Home = () => {
     let homeBox = document.createElement("div");
