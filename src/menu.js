@@ -6,7 +6,7 @@ const Menu = () => {
     const dishes = ["Garlic Pasta", "Lasagna", "Pizza", "Birria Tacos"];
 
     let list = document.createElement("ul");
-    list.className.add("menu-list");
+    list.classList.add("menu-list");
 
     for (let i = 0; i < dishes.length; i++) {
         let liElement = document.createElement("li");
