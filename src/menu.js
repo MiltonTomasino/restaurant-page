@@ -1,7 +1,7 @@
 
 const Menu = () => {
-    let homeBox = document.createElement("div");
-    homeBox.classList.add("home-box");
+    let menuBox = document.createElement("div");
+    menuBox.classList.add("menu-box");
 
     const dishes = ["Garlic Pasta", "Lasagna", "Pizza", "Birria Tacos"];
 
@@ -15,9 +15,9 @@ const Menu = () => {
         list.appendChild(liElement);
     }
 
-    homeBox.appendChild(list);
+    menuBox.appendChild(list);
 
-    return homeBox;
+    return menuBox;
 }
 
 export default Menu;

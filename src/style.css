@@ -5,11 +5,36 @@
 }
 
 body {
-    background-color: rebeccapurple;
+    background-color: rgb(255, 249, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin-top: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
+
+.about-box {
+    text-align: center;
+    width: 500px;
 }
 
 #content {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
+    justify-content: center;
 }
 
 .photo {
